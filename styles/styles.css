@@ -16,6 +16,7 @@ td {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .trois_cases{
   padding-top: 55px;
   padding-bottom: 55px;
@@ -23,4 +24,8 @@ td {
 .deux_cases{
   padding-top: 33px;
   padding-bottom: 33px;
+}
+
+abbr{
+  cursor: help;
 }
