@@ -1,0 +1,87 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Notions Réseau</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="./styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Accueil</a>
+                        <a class="navbar-item" href="cidr.html">CIDR</a>
+                        <a class="navbar-item" href="wildcard_simple.html">Wildcard Simple</a>
+                        <a class="navbar-item" href="wildcard_avance.html">Wildcard Avancé</a>
+                        <a class="navbar-item" href="classes.html">Classes IP</a>
+                        <a class="navbar-item" href="ip_prive.html">IP Privé</a>
+                        <a class="navbar-item" href="modele_osi.html">Modèle OSI</a>       
+                        <a class="navbar-item" href="modele_tcp.html">Modèle TCP/IP</a>   
+                        <a class="navbar-item" href="comparaison_modele.html">Comparaison Modèles</a>                                                                     
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="section site-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>IP de début</th>
+                        <th>IP de fin</th>
+                        <th>CIDR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Classe A</td>
+                        <td>10.0.0.0</td>
+                        <td>10.255.255.255</td>
+                        <td>10.0.0.0/8</td>
+                    </tr>
+                    <tr>
+                        <td>Classe A (CGN RFC 6598)</td>
+                        <td>100.64.0.0</td>
+                        <td>100.127.255.255</td>
+                        <td>100.64.0.0/10</td>
+                    </tr>
+                    <tr>
+                        <td>Classe A (LoopBack)</td>
+                        <td>127.0.0.0</td>
+                        <td>127.255.255.255</td>
+                        <td>127.0.0.0/8</td>
+                    </tr>
+                    <tr>
+                        <td>Classe B (APIPA)</td>
+                        <td>169.254.0.0</td>
+                        <td>169.254.255.255</td>
+                        <td>169.254.0.0/16</td>
+                    </tr>
+                    <tr>
+                        <td>Classe B</td>
+                        <td>172.16.0.0</td>
+                        <td>172.31.255.255</td>
+                        <td>172.16.0.0/12</td>
+                    </tr>
+                    <tr>
+                        <td>Classe C</td>
+                        <td>192.168.0.0</td>
+                        <td>192.168.255.255</td>
+                        <td>192.168.0.0/16</td>
+                    </tr>
+                    <tr>
+                        <td>Classe D (MultiCast)</td>
+                        <td>224.0.0.0</td>
+                        <td>239.255.255.255</td>
+                        <td>224.0.0.0/4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

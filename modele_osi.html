@@ -1,0 +1,82 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Notions Réseau</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="./styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Accueil</a>
+                        <a class="navbar-item" href="cidr.html">CIDR</a>
+                        <a class="navbar-item" href="wildcard_simple.html">Wildcard Simple</a>
+                        <a class="navbar-item" href="wildcard_avance.html">Wildcard Avancé</a>
+                        <a class="navbar-item" href="classes.html">Classes IP</a>
+                        <a class="navbar-item" href="ip_prive.html">IP Privé</a>
+                        <a class="navbar-item" href="modele_osi.html">Modèle OSI</a>    
+                        <a class="navbar-item" href="modele_tcp.html">Modèle TCP/IP</a>  
+                        <a class="navbar-item" href="comparaison_modele.html">Comparaison Modèles</a>                                                                                              
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="section site-content">
+            <table>
+                <caption>Modèle OSI</caption>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <th scope="col"><abbr title="Protocol Data Unit">PDU</abbr></th>
+                        <th scope="col">Couche</th>
+                        <th scope="col">Protocole</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Couches applications</th>
+                        <td rowspan="3">Données</td>
+                        <td>7 - Application</td>
+                        <td>DHCP, DNS, FTP</td>
+                    </tr>
+                    <tr>
+                        <td>6 - Présentation</td>
+                        <td>HTML, CSS, SSL, TLS</td>
+                    </tr>
+                    <tr>
+                        <td>5 - Session</td>
+                        <td>NetBIOS</td>
+                    </tr>
+                    <tr>
+                        <td>Segment / Datagramme</td>
+                        <td>4 - Transport</td>
+                        <td>TCP et UDP</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Couches flux de donées</th>
+                        <td>Paquet</td>
+                        <td>3 - Réseau</td>
+                        <td>ARP et ICMP</td>
+                    </tr>
+                    <tr>
+                        <td>Trame</td>
+                        <td>2 - Liaison</td>
+                        <td>Ethernet</td>
+                    </tr>
+                    <tr>
+                        <td>Bit</td>
+                        <td>1 - Physique</td>
+                        <td>1000BASE-T</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Segment = TCP <br> Datagramme = UDP</p>
+
+        </main>
+    </body>
+</html>

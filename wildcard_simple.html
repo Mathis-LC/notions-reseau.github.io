@@ -1,0 +1,99 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Notions Réseau</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="./styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Accueil</a>
+                        <a class="navbar-item" href="cidr.html">CIDR</a>
+                        <a class="navbar-item" href="wildcard_simple.html">Wildcard Simple</a>
+                        <a class="navbar-item" href="wildcard_avance.html">Wildcard Avancé</a>
+                        <a class="navbar-item" href="classes.html">Classes IP</a>
+                        <a class="navbar-item" href="ip_prive.html">IP Privé</a>
+                        <a class="navbar-item" href="modele_osi.html">Modèle OSI</a> 
+                        <a class="navbar-item" href="modele_tcp.html">Modèle TCP/IP</a>   
+                        <a class="navbar-item" href="comparaison_modele.html">Comparaison Modèles</a>                                                   
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="section site-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Masque Décimal</th>
+                        <th>Masque Binaire</th>
+                        <th>Wildcard Décimal</th>
+                        <th>Wildcard Binaire</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>255</td>
+                        <td>1111 1111</td>
+                        <td>0</td>
+                        <td>0000 0000</td>
+                    </tr>
+                    <tr>
+                        <td>254</td>
+                        <td>1111 1110</td>
+                        <td>1</td>
+                        <td>0000 0001</td>
+                    </tr>
+                    <tr>
+                        <td>252</td>
+                        <td>1111 1100</td>
+                        <td>3</td>
+                        <td>0000 0011</td>
+                    </tr>
+                    <tr>
+                        <td>248</td>
+                        <td>1111 1000</td>
+                        <td>7</td>
+                        <td>0000 0111</td>
+                    </tr>
+                    <tr>
+                        <td>240</td>
+                        <td>1111 0000</td>
+                        <td>15</td>
+                        <td>0000 1111</td>
+                    </tr>
+                    <tr>
+                        <td>224</td>
+                        <td>1110 0000</td>
+                        <td>31</td>
+                        <td>0001 1111</td>
+                    </tr>
+                    <tr>
+                        <td>192</td>
+                        <td>1100 0000</td>
+                        <td>63</td>
+                        <td>0011 1111</td>
+                    </tr>
+                    <tr>
+                        <td>128</td>
+                        <td>1000 0000</td>
+                        <td>127</td>
+                        <td>0111 1111</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>0000 0000</td>
+                        <td>255</td>
+                        <td>1111 1111</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

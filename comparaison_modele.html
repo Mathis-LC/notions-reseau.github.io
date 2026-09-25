@@ -1,0 +1,105 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Notions Réseau</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="./styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Accueil</a>
+                        <a class="navbar-item" href="cidr.html">CIDR</a>
+                        <a class="navbar-item" href="wildcard_simple.html">Wildcard Simple</a>
+                        <a class="navbar-item" href="wildcard_avance.html">Wildcard Avancé</a>
+                        <a class="navbar-item" href="classes.html">Classes IP</a>
+                        <a class="navbar-item" href="ip_prive.html">IP Privé</a>
+                        <a class="navbar-item" href="modele_osi.html">Modèle OSI</a>    
+                        <a class="navbar-item" href="modele_tcp.html">Modèle TCP/IP</a> 
+                        <a class="navbar-item" href="comparaison_modele.html">Comparaison Modèles</a>                                                                   
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="section site-content">
+
+            <div class="columns">
+
+                <div class="column is-half">
+                    <table>
+                        <caption>Modèle OSI</caption>
+                        <thead>
+                            <tr>
+                                <th>Couche</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>7 - Application</td>
+                                <td rowspan="3">Couches application</td>
+                            </tr>
+                            <tr>
+                                <td>6 - Présentation</td>
+                            </tr>
+                            <tr>
+                                <td>5 - Session</td>
+                            </tr>
+                            <tr>
+                                <td>4 - Transport</td>
+                                <td rowspan="4">Couches flux de données</td>
+                            </tr>
+                            <tr>
+                                <td>3 - Réseau</td>
+                            </tr>
+                            <tr>
+                                <td>2 - Liaison de données</td>
+                            </tr>
+                            <tr>
+                                <td>1 - Physique</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="column">
+                    <table>
+                        <caption>Modèle TCP/IP</caption>
+                        <thead>
+                            <tr>
+                            <th>Couche</th>
+                            <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="trois_cases">4 - Application</td>
+                                <td rowspan="2">Protocoles</td>
+                            </tr>
+                            <tr>
+                                <td>3 - Transport</td>
+                            </tr>
+                            <tr>
+                                <td>2 - Internet</td>
+                                <td rowspan="2">Réseaux</td>
+                            </tr>
+                            <tr>
+                                <td class="deux_cases">1 - Accès réseau</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p>7 - Application, 6 - Présentation, 5 - Session = 4 - Application</p>
+            <p>4 - Transport = 3 - Transport</p>
+            <p>3 - Réseau = 2 - Internet</p>
+            <p>2 - Liaison de données, 1 - Physique = 1 - Accès réseau</p>
+        </main>
+    </body>
+</html>
