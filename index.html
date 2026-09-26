@@ -7,11 +7,22 @@
         <title>Site Notions Réseau</title>
 		
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-		<link rel="stylesheet" type="text/css" href="./styles/styles.css">
-	</head>
+		<link rel="stylesheet" type="text/css" href="./static/styles/style.css">
+
+        <script src="./static/js/navbar.js" defer></script>
+    </head>
     <body>
         <header>
-            <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-fixed-top is-dark" aria-label="main navigation">
+
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
                 <div class="navbar-menu">
                     <div class="navbar-start">
                         <a class="navbar-item has-text-weight-bold has-text-success" href="index.html">Accueil</a>

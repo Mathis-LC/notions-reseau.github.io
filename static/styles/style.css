@@ -1,0 +1,47 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+}
+tr, td, th {
+  border:rgb(190, 189, 189) 0.1em solid;
+}
+th {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+td {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trois_cases{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.deux_cases{
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+abbr{
+  cursor: help;
+}
+
+/* Ce CSS permet de personnaliser la couleur du bouton du menu mobile et de conserver cette couleur au survol et lorsque le menu est ouvert. */
+
+.navbar-burger {
+    color: var(--bulma-success) !important;
+}
+
+.navbar-burger:hover {
+    background-color: transparent !important;
+    color: var(--bulma-success) !important;
+}
+
+.navbar-burger.is-active {
+    color: var(--bulma-danger) !important;
+    background-color: transparent !important;
+}
