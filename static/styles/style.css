@@ -34,15 +34,15 @@ abbr{
 /* Ce CSS permet de personnaliser la couleur du bouton du menu mobile et de conserver cette couleur au survol et lorsque le menu est ouvert. */
 
 .navbar-burger {
-    color: var(--bulma-success) !important;
+  color: var(--bulma-success) !important;
 }
 
 .navbar-burger:hover {
-    background-color: transparent !important;
-    color: var(--bulma-success) !important;
+  background-color: transparent !important;
+  color: var(--bulma-success) !important;
 }
 
 .navbar-burger.is-active {
-    color: var(--bulma-danger) !important;
-    background-color: transparent !important;
+  color: var(--bulma-danger) !important;
+  background-color: transparent !important;
 }
