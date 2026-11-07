@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="./static/styles/style.css">
 
         <script src="./static/js/navbar.js" defer></script>
+        <script src="./static/js/navbar_indicator.js" defer></script>        
     </head>
     <body>
         <header>
@@ -30,7 +31,7 @@
                         <a class="navbar-item has-text-weight-bold has-text-white" href="./wildcard_simple.html">Wildcard Simple</a>
                         <a class="navbar-item has-text-weight-bold has-text-white" href="./wildcard_avance.html">Wildcard Avancé</a>
                         <a class="navbar-item has-text-weight-bold has-text-white" href="./classes.html">Classes IP</a>
-                        <a class="navbar-item has-text-weight-bold has-text-success" href="./ip_prive.html">IP Privé</a>
+                        <a class="navbar-item has-text-weight-bold has-text-white" href="./ip_prive.html">IP Privé</a>
                     </div>
                 </div>
             </nav>
@@ -53,19 +54,19 @@
                         <td>10.0.0.0/8</td>
                     </tr>
                     <tr>
-                        <td>Classe A (CGN RFC 6598)</td>
+                        <td>Classe A (<abbr title="Carrier-grade NAT">CGN</abbr>)</td>
                         <td>100.64.0.0</td>
                         <td>100.127.255.255</td>
                         <td>100.64.0.0/10</td>
                     </tr>
                     <tr>
-                        <td>Classe A (LoopBack)</td>
+                        <td>Classe A (Loopback)</td>
                         <td>127.0.0.0</td>
                         <td>127.255.255.255</td>
                         <td>127.0.0.0/8</td>
                     </tr>
                     <tr>
-                        <td>Classe B (APIPA)</td>
+                        <td>Classe B (<abbr title="Automatic Private Internet Protocol Addressing">APIPA</abbr>)</td>
                         <td>169.254.0.0</td>
                         <td>169.254.255.255</td>
                         <td>169.254.0.0/16</td>
@@ -83,11 +84,11 @@
                         <td>192.168.0.0/16</td>
                     </tr>
                     <tr>
-                        <td>Classe D (MultiCast)</td>
+                        <td>Classe D (Multicast)</td>
                         <td>224.0.0.0</td>
                         <td>239.255.255.255</td>
                         <td>224.0.0.0/4</td>
-                    </tr>
+                    </tr>                    
                 </tbody>
             </table>
         </main>
